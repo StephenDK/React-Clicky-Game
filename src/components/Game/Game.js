@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import data from '../../data.json';
+import './game.css';
 
 class Game extends Component {
   state = {
@@ -52,7 +53,8 @@ class Game extends Component {
 
   render() {
     return (
-      <div>
+      <div className='container'>
+        <div className='gameBoard'>
         {
             
             this.state.characters.map((character, i) => {
@@ -69,6 +71,9 @@ class Game extends Component {
                                 height: '200px',
                                 margin: '10px',
                                 padding: '2px',
+                                marginLeft: '20px',
+                                borderStyle:' inset',
+                                
                             }}
                             onClick={() => { this.handleClick(character.id) }}
                         />
@@ -79,6 +84,7 @@ class Game extends Component {
                 );
             })
         }
+        </div>
       </div>
     );
   }

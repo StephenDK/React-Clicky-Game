@@ -6,7 +6,7 @@ import './navbar.css';
 const Navbar = (props) => (
    <div className='navbar navbar-default'>
         <div className='container-fluid navbar-custom'>
-            <a className='navbar-brand' href='/'>Clicky Game</a>
+            <h1 className='logo'>Clicky Game</h1>
             <h3 className='score'>Score: {props.score} Top Score: {props.topScore}</h3>
             
         </div> 
