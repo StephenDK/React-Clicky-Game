@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "images/mario.jpg"
+    },
+    {
+        "id": 2,
+        "image": "images/peach.jpg"
+    },
+    {
+        "id": 3,
+        "image": "/images/bowser.jpg"
+    },
+    {
+        "id": 4,
+        "image": "./images/luigi.jpg"
+    },
+    {
+        "id": 5,
+        "image": "./images/goomba.jpg"
+    },
+    {
+        "id": 6,
+        "image": "./images/mushroom.jpg"
+    },
+    {
+        "id": 7,
+        "image": "./images/shy_guy_red.jpg"
+    },
+    {
+        "id": 8,
+        "image": "./images/shy_guy_green.jpg"
+    },
+    {
+        "id": 9,
+        "image": "./images/hammer_bro.jpg"
+    }
+]

@@ -1,0 +1,9 @@
+.navbar {
+    background-color: green;
+    margin: 0;
+    padding: 15px;
+    
+}
+.score {
+    text-align: right;
+}
