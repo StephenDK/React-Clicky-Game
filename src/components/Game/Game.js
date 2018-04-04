@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import data from '../../data.json';
+import img from './background.png';
 import './game.css';
 
 class Game extends Component {
@@ -17,7 +18,7 @@ class Game extends Component {
       let clicked = this.state.clicked;
       
         if (clicked[id]) {
-            alert('Already clicked!');
+            console.log('Already clicked!');
             this.props.updateScore(0, this.state.topScore);
             this.setState({
                 clicked: {},
@@ -25,7 +26,7 @@ class Game extends Component {
                 topScore: 0,
             });
         } else {
-            alert('Nice!');
+            // console.log('Nice!');
             clicked[id] = true;
             // add one to score state
             let newScore = this.state.score + 1;
@@ -53,7 +54,9 @@ class Game extends Component {
 
   render() {
     return (
-      <div className='container'>
+      <div className='container'
+      style={{backgroundImage: `url(${img})`}}
+      >
         <div className='gameBoard'>
         {
             

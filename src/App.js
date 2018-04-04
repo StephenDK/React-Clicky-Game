@@ -15,8 +15,8 @@ class App extends React.Component {
     };
 
     handleUpdateScore = (score, topScore) => {
-        console.log('App score', score);
-        console.log('App topScore', topScore);
+        // console.log('App score', score);
+        // console.log('App topScore', topScore);
         this.setState({
             // score: score,
             score,
