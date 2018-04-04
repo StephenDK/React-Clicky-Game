@@ -10,4 +10,5 @@ footer {
     text-align: center;
     position: relative;
     top: 30px;
+    text-shadow: 1px 1px black;
 }

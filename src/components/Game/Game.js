@@ -18,7 +18,7 @@ class Game extends Component {
       let clicked = this.state.clicked;
       
         if (clicked[id]) {
-            console.log('Already clicked!');
+            alert('Sorry you loose!');
             this.props.updateScore(0, this.state.topScore);
             this.setState({
                 clicked: {},
@@ -54,7 +54,7 @@ class Game extends Component {
 
   render() {
     return (
-      <div className='container'
+      <div
       style={{backgroundImage: `url(${img})`}}
       >
         <div className='gameBoard'>
