@@ -1,5 +1,7 @@
 .gameBoard {
+    height: 710px;
     width: 800px;
-    height: 800px;
     margin: auto;
+    padding-top: 30px;
+    padding-bottom: -30px;
 }

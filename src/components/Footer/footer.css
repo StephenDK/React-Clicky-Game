@@ -1,0 +1,11 @@
+footer {
+    background-color: grey;
+    height: 75px;
+    width: 100%;
+}
+.copyRight {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
